@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+body{
+    background-color: black;
+}
+#titulo{
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: brown;
+border-radius: 10px;
+border-color: rgb(147, 147, 184);
+text-align: center;
+color: rgb(20, 187, 48);
+}
+
+
+
+ h2{
+    color: white;
+    text-align: center;
+   
+}
+
+
+
+ h3{
+    color: rgb(239, 239, 244);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+input, button {
+    display: block;
+    padding: 8px;
+   margin-left: 5px;
+    margin-bottom: 8px;
+    resize: none;
+    border-radius: 10px;
+    border-color:rgb(179, 18, 18);
+    
+}
+button { 
+ margin-top:30px;
+ border-color: rgb(113, 111, 111);
+ color: white;
+ background-color: brown;
+}
+form{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.success-message{
+    background-color: white ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: larger;
+ 
+
+}
+
+img {
+    margin-left: 400px;
+    margin-top: 50px;
+}
