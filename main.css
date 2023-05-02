@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    color: blue;
+}
+
+
+
+.form-campo {
+
+    margin-bottom: 16px;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+
+
+form button {
+    max-width: 120px;
+    margin-left: 25%;
+    background-color: rgb(16, 16, 255);
+    color: white;
+}
